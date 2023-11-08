@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_new_car"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/title_new_car" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_car_black_24dp"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_exit_car"
+        android:icon="@drawable/ic_exit_black_24dp"
+        android:title="@string/title_exit_car" />
+
+</menu>

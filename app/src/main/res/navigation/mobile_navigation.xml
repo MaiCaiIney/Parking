@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_new_car"
+        android:name="com.artekium.parking.ui.NewCarFragment"
+        android:label="@string/title_new_car"
+        tools:layout="@layout/fragment_new_car" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.artekium.parking.ui.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_exit_car"
+        android:name="com.artekium.parking.ui.ExitCarFragment"
+        android:label="@string/title_exit_car"
+        tools:layout="@layout/fragment_exit_car" />
+</navigation>

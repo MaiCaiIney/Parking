@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Parking</string>
+    <string name="title_new_car">Ingreso</string>
+    <string name="title_dashboard">Estacionamiento</string>
+    <string name="title_exit_car">Salida</string>
+
+    <string name="dashboard_start">Iniciar sistema</string>
+    <string name="dashboard_capacity">Lugares libres: %d</string>
+    <string name="dashboard_item_finished">FINALIZADO</string>
+
+    <string name="new_car_license">Patente</string>
+    <string name="new_car_brand">Modelo</string>
+    <string name="new_car_model">Marca</string>
+    <string name="new_car_color">Color</string>
+    <string name="new_car_save">Ingresar vehículo</string>
+    <string name="new_car_license_required">Campo obligatorio: PATENTE</string>
+</resources>
